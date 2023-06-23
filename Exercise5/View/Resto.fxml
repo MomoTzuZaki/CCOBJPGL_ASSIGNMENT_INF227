@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.RestaurantController">
+   <children>
+      <ImageView fitHeight="131.0" fitWidth="131.0" layoutX="38.0" layoutY="43.0" preserveRatio="true">
+         <image>
+            <Image url="@../images/kfc.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="114.0" layoutX="237.0" layoutY="43.0" preserveRatio="true">
+         <image>
+            <Image url="@../images/jollibee.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="121.0" layoutX="444.0" layoutY="43.0" preserveRatio="true">
+         <image>
+            <Image url="@../images/popeyes.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="131.0" layoutX="144.0" layoutY="217.0" preserveRatio="true">
+         <image>
+            <Image url="@../images/manginasal.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="131.0" fitWidth="131.0" layoutX="313.0" layoutY="217.0" preserveRatio="true">
+         <image>
+            <Image url="@../images/mcdo.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn3" layoutX="85.0" layoutY="181.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: darkred;" text="KFC" textFill="WHITE" />
+      <Button fx:id="btn5" layoutX="469.0" layoutY="181.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: brown;" text="Popeyes" textAlignment="CENTER" textFill="WHITE" />
+      <Button fx:id="btn2" layoutX="269.0" layoutY="181.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: red;" text="Jollibee" textAlignment="CENTER" textFill="WHITE" />
+      <Button fx:id="btn1" layoutX="169.0" layoutY="355.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: green;" text="Mang Inasal" textAlignment="CENTER" textFill="WHITE" />
+      <Button fx:id="btn4" layoutX="351.0" layoutY="355.0" mnemonicParsing="false" onAction="#showInfo" style="-fx-background-color: orange;" text="Mcdo" textFill="WHITE" />
+      <Label layoutX="231.0" layoutY="14.0" text="Choose your restaurant:" textAlignment="CENTER" />
+   </children>
+</Pane>
